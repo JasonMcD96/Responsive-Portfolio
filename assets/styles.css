@@ -1,0 +1,21 @@
+body {
+    background-color: #6c7275;
+}
+
+#aboutMe {
+    background-color: blanchedalmond;
+}
+
+#aboutMeImage {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+#bio {
+    
+}
+
+main {
+    margin-top: 15px;
+}
