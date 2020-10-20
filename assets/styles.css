@@ -4,18 +4,55 @@ body {
 
 #aboutMe {
     background-color: blanchedalmond;
+    width: 600px;
+    margin-top: 50px;
+
 }
 
 #aboutMeImage {
     width: 200px;
     float: left;
     margin-right: 15px;
+
+
 }
 
 #bio {
-    
+
+    width: 500px;
+    word-wrap: break-word;
+
 }
 
 main {
-    margin-top: 15px;
+
+}
+
+
+
+@media screen and (max-width: 768px){
+ 
+
+    
+}
+
+@media screen and (max-width: 320px){
+
+
+   #aboutMe {
+       width: 95%;
+   }
+
+    #bio {
+
+        width: 98%;
+
+    }
+    
+
+    #aboutMeImage {
+        width: 150px;
+    }
+
+    
 }
