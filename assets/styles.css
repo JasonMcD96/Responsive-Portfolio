@@ -4,14 +4,14 @@ body {
 
 #aboutMe {
     background-color: blanchedalmond;
-    width: 600px;
+
     margin-top: 50px;
 
 }
 
 #aboutMeImage {
-    width: 200px;
-    float: left;
+
+
     margin-right: 15px;
 
 
@@ -19,7 +19,6 @@ body {
 
 #bio {
 
-    width: 500px;
     word-wrap: break-word;
 
 }
@@ -28,30 +27,23 @@ main {
 
 }
 
-
-
 @media screen and (max-width: 768px){
- 
-
     
 }
 
 @media screen and (max-width: 320px){
 
-
    #aboutMe {
-       width: 95%;
+       /* width: 95%; */
    }
-
+   
     #bio {
 
-        width: 98%;
 
     }
-    
 
     #aboutMeImage {
-        width: 150px;
+  
     }
 
     
