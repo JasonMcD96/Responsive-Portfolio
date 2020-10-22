@@ -1,42 +1,62 @@
 body {
-    background-color: #6c7275;
+   
+}
+.pageContainer {
+    position: relative;
+    background-color: #6c7275;   
+    background-image: url("papyrus-dark.png");
+}
+
+h1 {
+    margin-top: 10px;
 }
 
 #aboutMeImage {
     margin-right: 15px;
+    min-width: 200px;
 }
 
 #bioText {
     padding: 0 10px 10px 20px;
     text-align: left;
+    font-size: 18px;
 }
 
 #aboutMe {
     background-color: blanchedalmond;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin-top: 100px;
+    margin-bottom: 35px;
     border: 1px solid black;
-   
-}
-
-.pageContainer {
-    position: relative;
-    
+    min-width: 500px;
 }
 
 main{
-    padding-right: 400px;
+    padding-right: 470px;
     padding-left: 20px;
+    
 }
+
+
+
+.middlePage {
+    min-height: 100vh;
+}
+
 @media screen and (max-width: 768px) {
     main {
         margin-right: 20px;
         margin-left: 20px;
         padding-right: 0;
+        padding-left: 0;
     }
 
     #aboutMeImage {
         max-width: 250px;
+        min-width: 0;
+    }
+
+    #aboutMe{
+        min-width: 0;
     }
 }
 
@@ -50,5 +70,6 @@ main{
         max-width: 100%;
         margin-bottom: 20px;
     }
+   
    
 }
