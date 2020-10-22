@@ -24,10 +24,19 @@ body {
     
 }
 
+main{
+    padding-right: 400px;
+    padding-left: 20px;
+}
 @media screen and (max-width: 768px) {
     main {
         margin-right: 20px;
         margin-left: 20px;
+        padding-right: 0;
+    }
+
+    #aboutMeImage {
+        max-width: 250px;
     }
 }
 
@@ -36,4 +45,10 @@ body {
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    #aboutMeImage {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+   
 }
