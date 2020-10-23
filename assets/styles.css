@@ -1,10 +1,18 @@
 body {
-   
+    background-image: url("papyrus-dark.png");
 }
+
+footer {
+    margin-top: 20px;
+}
+
 .pageContainer {
     position: relative;
-    background-color: #6c7275;   
-    background-image: url("papyrus-dark.png");
+}
+
+main {
+    padding-right: 470px;
+    padding-left: 20px;
 }
 
 h1 {
@@ -22,25 +30,42 @@ h1 {
     font-size: 18px;
 }
 
-#aboutMe {
+#aboutMe, #portfolio, #contact {
     background-color: blanchedalmond;
     margin-top: 100px;
-    margin-bottom: 35px;
     border: 1px solid black;
     min-width: 500px;
+    padding-bottom: 15px;
 }
 
-main{
-    padding-right: 470px;
-    padding-left: 20px;
-    
+#portfolioImage {
+    margin-right: 15px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-bottom: 15px;
+    max-height: 250px;
 }
 
-
+/* Way to keep footer from being mid page */
 
 .middlePage {
     min-height: 100vh;
 }
+
+textarea {
+    resize: none;
+}
+/* change the opacity when hovering later */
+#submitButton {
+    border-radius: 1em;
+}
+
+#submitButton:hover { 
+    opacity: .8;
+}
+
+
+/* Media queries */
 
 @media screen and (max-width: 768px) {
     main {
@@ -49,15 +74,14 @@ main{
         padding-right: 0;
         padding-left: 0;
     }
-
     #aboutMeImage {
         max-width: 250px;
         min-width: 0;
     }
-
-    #aboutMe{
+    #aboutMe, #portfolio, #contact{
         min-width: 0;
     }
+ 
 }
 
 @media screen and (max-width: 320px) {
@@ -65,11 +89,8 @@ main{
         margin-right: 10px;
         margin-left: 10px;
     }
-
     #aboutMeImage {
         max-width: 100%;
         margin-bottom: 20px;
     }
-   
-   
 }
