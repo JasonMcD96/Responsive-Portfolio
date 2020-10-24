@@ -2,15 +2,14 @@ body {
     background-image: url("images/papyrus-dark.png");
 }
 
-
-
 footer {
     margin-top: 20px;
 }
 
-.pageContainer {
-    position: relative;
+textarea {
+    resize: none;
 }
+
 
 main {
     padding-right: 470px;
@@ -20,6 +19,30 @@ main {
 h1 {
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Way to keep footer from being mid page */
+
+.middlePage {
+    min-height: 100vh;
+}
+
+.pageContainer {
+    position: relative;
+}
+
+.portfolioImage {
+    margin-right: 15px;
+    min-width: 200px;
+    max-width: 200px;
+    margin-bottom: 15px;
+    max-height: 250px;
 }
 
 #aboutMeImage {
@@ -41,36 +64,12 @@ h1 {
     padding-bottom: 15px;
 }
 
-.portfolioImage {
-    margin-right: 15px;
-    min-width: 200px;
-    max-width: 200px;
-    margin-bottom: 15px;
-    max-height: 250px;
-}
-
-/* Way to keep footer from being mid page */
-
-.middlePage {
-    min-height: 100vh;
-}
-
-textarea {
-    resize: none;
-}
-/* change the opacity when hovering later */
 #submitButton {
     border-radius: 1em;
 }
 
 #submitButton:hover { 
     opacity: .8;
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 button.navbar-toggler:hover {
