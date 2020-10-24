@@ -14,19 +14,19 @@ In this project I designed a portfolio about myself and made it responsive to di
 
  The following image is a preview of a very small screen (iPhone 5 on google dev tool inspector).
 
-![responsiveDemo1](/assets/images/previews/verySmall.png)
+![responsiveDemo1](/assets/previews/verySmall.png)
 
  The following image is a preview of a small screen (Surface Duo on google dev tool inspector).
 
-![responsiveDemo2](/assets/images/previews/small.png)
+![responsiveDemo2](/assets/previews/small.png)
 
  The following image is a preview of a large screen.
 
-![responsiveDemo3](/assets/images/previews/large.png)
+![responsiveDemo3](/assets/previews/large.png)
 
  The following image is a preview of a very large screen.
 
-![responsiveDemo4](/assets/images/previews/veryLarge.png)
+![responsiveDemo4](/assets/previews/veryLarge.png)
 
 ![code refactor demo](/assets/images/01-html-css-git-homework-demo.png)
 
