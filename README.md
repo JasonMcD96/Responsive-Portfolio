@@ -28,3 +28,4 @@ The following image is a preview of a very large screen.
 
 ![responsive demo](/assets/images/previews/veryLarge.png)
 
+
