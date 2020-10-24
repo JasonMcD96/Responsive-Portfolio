@@ -30,3 +30,4 @@ In this project I designed a portfolio about myself and made it responsive to di
 
 ![code refactor demo](/assets/images/01-html-css-git-homework-demo.png)
 
+
