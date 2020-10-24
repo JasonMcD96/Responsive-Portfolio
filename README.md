@@ -28,4 +28,5 @@ In this project I designed a portfolio about myself and made it responsive to di
 
 ![responsiveDemo4](/assets/images/previews/veryLarge.png)
 
+![code refactor demo](/assets/images/01-html-css-git-homework-demo.png)
 
