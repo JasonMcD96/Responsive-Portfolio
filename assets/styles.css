@@ -12,7 +12,6 @@ textarea {
 
 
 main {
-    /* padding-right: 470px; */
     padding-left: 20px;
 }
 
@@ -33,10 +32,12 @@ hr{
 
 .portfolioItem {
     margin-bottom: 15px;
+    
 }
 
 .portfolioItem p {
     margin-bottom: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .portfolioItem a {
@@ -48,8 +49,11 @@ hr{
     margin-bottom: 20px;
 }
 
-/* Way to keep footer from being mid page */
+.contactLine h5 {
+    font-family: 'Ubuntu', sans-serif;
+}
 
+/* Way to keep footer from being mid page */
 .middlePage {
     min-height: 100vh;
 }
@@ -64,8 +68,17 @@ hr{
     margin-top: 10px;
     min-width: 200px;
     max-width: 200px;
-    max-height: 250px;
-    min-height: 150px;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+#myNavbar {
+    font-family: 'Raleway', sans-serif;
+}
+
+#myName {
+    padding-top: 5px;
+    margin-bottom: 0;
 }
 
 #aboutMeImage {
@@ -78,7 +91,8 @@ hr{
     padding: 0 10px 10px 20px;
     text-align: left;
     font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;}
+    font-family: 'Ubuntu', sans-serif;
+}
 
 #aboutMe, #portfolio, #contact {
     background-color: blanchedalmond;
